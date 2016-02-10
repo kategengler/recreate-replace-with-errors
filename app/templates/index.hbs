@@ -1,0 +1,12 @@
+{{outlet}}
+
+<ul>
+  <li>See error with `this.replaceWith('/not-found')` {{#link-to "show" "what"}}Click here{{/link-to}}</li>
+  <li>No error with `this.transitionTo('/not-found')` {{#link-to "show-transition-to-not-found-as-url" "what"}}Click here{{/link-to}}</li>
+
+
+  <li></li>
+  <li>Can't seem to recreate these outside of https://github.com/emberobserver/client</li>
+  <li>See error with `this.replaceWith('not-found')` {{#link-to "nested.show-not-found-as-route-name" "what"}}Click here{{/link-to}}</li>
+  <li>See error with `this.transitionTo('not-found')` {{#link-to "show-transition-to-not-found-as-route-name" "what"}}Click here{{/link-to}}</li>
+</ul>
